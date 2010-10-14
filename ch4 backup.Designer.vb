@@ -87,9 +87,9 @@ Partial Class frmRental
         Me.lblItem.AutoSize = True
         Me.lblItem.Location = New System.Drawing.Point(65, 107)
         Me.lblItem.Name = "lblItem"
-        Me.lblItem.Size = New System.Drawing.Size(196, 14)
+        Me.lblItem.Size = New System.Drawing.Size(203, 14)
         Me.lblItem.TabIndex = 6
-        Me.lblItem.Text = "Select an item (1, 2, or3):"
+        Me.lblItem.Text = "Select an item (1, 2, or 3):"
         '
         'lblDuration
         '
