@@ -53,33 +53,33 @@ Partial Class frmRental
         'lstPrice
         '
         Me.lstPrice.FormattingEnabled = True
-        Me.lstPrice.ItemHeight = 14
+        Me.lstPrice.ItemHeight = 17
         Me.lstPrice.Location = New System.Drawing.Point(479, 18)
         Me.lstPrice.Name = "lstPrice"
-        Me.lstPrice.Size = New System.Drawing.Size(341, 102)
+        Me.lstPrice.Size = New System.Drawing.Size(402, 123)
         Me.lstPrice.TabIndex = 2
         '
         'lstBill
         '
         Me.lstBill.FormattingEnabled = True
-        Me.lstBill.ItemHeight = 14
+        Me.lstBill.ItemHeight = 17
         Me.lstBill.Location = New System.Drawing.Point(479, 215)
         Me.lstBill.Name = "lstBill"
-        Me.lstBill.Size = New System.Drawing.Size(341, 102)
+        Me.lstBill.Size = New System.Drawing.Size(402, 123)
         Me.lstBill.TabIndex = 3
         '
         'txtItem
         '
-        Me.txtItem.Location = New System.Drawing.Point(275, 107)
+        Me.txtItem.Location = New System.Drawing.Point(318, 107)
         Me.txtItem.Name = "txtItem"
-        Me.txtItem.Size = New System.Drawing.Size(47, 20)
+        Me.txtItem.Size = New System.Drawing.Size(47, 23)
         Me.txtItem.TabIndex = 4
         '
         'txtDuration
         '
-        Me.txtDuration.Location = New System.Drawing.Point(275, 179)
+        Me.txtDuration.Location = New System.Drawing.Point(318, 179)
         Me.txtDuration.Name = "txtDuration"
-        Me.txtDuration.Size = New System.Drawing.Size(47, 20)
+        Me.txtDuration.Size = New System.Drawing.Size(47, 23)
         Me.txtDuration.TabIndex = 5
         '
         'lblItem
@@ -87,7 +87,7 @@ Partial Class frmRental
         Me.lblItem.AutoSize = True
         Me.lblItem.Location = New System.Drawing.Point(65, 107)
         Me.lblItem.Name = "lblItem"
-        Me.lblItem.Size = New System.Drawing.Size(203, 14)
+        Me.lblItem.Size = New System.Drawing.Size(232, 17)
         Me.lblItem.TabIndex = 6
         Me.lblItem.Text = "Select an item (1, 2, or 3):"
         '
@@ -96,13 +96,13 @@ Partial Class frmRental
         Me.lblDuration.AutoSize = True
         Me.lblDuration.Location = New System.Drawing.Point(62, 179)
         Me.lblDuration.Name = "lblDuration"
-        Me.lblDuration.Size = New System.Drawing.Size(196, 14)
+        Me.lblDuration.Size = New System.Drawing.Size(224, 17)
         Me.lblDuration.TabIndex = 7
         Me.lblDuration.Text = "Select a duration (H or F):"
         '
         'frmRental
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 14.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 17.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(922, 392)
         Me.Controls.Add(Me.lblDuration)
